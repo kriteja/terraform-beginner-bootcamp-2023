@@ -1,15 +1,5 @@
 # Terraform Beginner Bootcamp 2023
 
-<<<<<<< HEAD
-![architectural-diagram](https://github.com/omenking/terraform-beginner-bootcamp-2023/assets/7776/ab015431-2d14-4910-aa37-be4807b2b905)
-
-
-## Weekly Journals
-- [Week 0 Journal](journal/week0.md)
-- [Week 1 Journal](journal/week1.md)
-
-=======
-
 ## TerraTowns Architectural Diagram 
 | Week 0 - Preweek                    | Week 1 - Build                      |
 | ----------------------------------- | ----------------------------------- |
@@ -35,6 +25,5 @@ PROJECT_ROOT
 - [Week 0 Journal](journal/week0.md)
 - [Week 1 Journal](journal/week1.md)
 
->>>>>>> 19-create-toc-for-readme
 ## Extras
 - [Github Markdown TOC Generator](https://ecotrust-canada.github.io/markdown-toc/)
