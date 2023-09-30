@@ -48,4 +48,4 @@ This is the default file to load in terraform variables in blunk
 
 ### order of terraform variables
 
-- TODO: document which terraform variables takes presendence.
+- TODO: document which terraform variables takes presendence
