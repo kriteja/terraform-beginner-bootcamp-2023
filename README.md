@@ -1,5 +1,8 @@
 # Terraform Beginner Bootcamp 2023
 
+## Project outline
+**TerraTowns** serves as a centralized platform where terraformers can explore and link up with each other's self-hosted personal websites (TerraHouse), reminiscent of the Geocities style of 2023. The terraformers utilize Infrastructure as Code (IaC) to launch their **TerraHouse**, a Content Management System (CMS) that empowers them to create their own personal websites and integrate them into the TerraTowns network.
+
 ## TerraTowns Architectural Diagram 
 | Week 0 - Preweek                    | Week 1 - Build                      |
 | ----------------------------------- | ----------------------------------- |
