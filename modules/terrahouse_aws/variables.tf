@@ -6,7 +6,7 @@ variable "user_uuid" {
     error_message    = "The user_uuid value is not a valid UUID."
   }
 }
-
+/*
 variable "bucket_name" {
   description = "The name of the S3 bucket"
   type        = string
@@ -39,3 +39,4 @@ variable "error_html_filepath" {
     error_message = "The provided path for error.html does not exist."
   }
 }
+*/
