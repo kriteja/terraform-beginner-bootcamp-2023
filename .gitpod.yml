@@ -7,9 +7,9 @@ tasks:
       source ./bin/generate_tfrc_credentials
       cp $PROJECT_ROOT/terraform.tfvars.example $PROJECT_ROOT/terraform.tfvars
   - name: sinatra
-    init: | 
-      cd $PROJECT_ROOT    
-      cd terra towns_mock_server
+    before: | 
+      cd $PROJECT_ROOT
+      cd terratowns_mock_server
       bundle install
       bundle exec ruby server.rb 
   - name: aws-cli
