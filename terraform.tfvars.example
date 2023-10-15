@@ -1,8 +1,7 @@
-# DO NOT PUT SENSITIVE INFO.
-
-user_uuid="812b1b97-ef1d-4b8c-86c8-f211dafcaca2"
-bucket_name="bu1k499uzbvubu7hikse9urbppgg6g1s"
+terratowns_endpoint="https://terratowns.cloud/api"
+bucket_name="default-terratowns-s3bucket-121245457878"
 index_html_filepath="/workspace/terraform-beginner-bootcamp-2023/public/index.html"
 error_html_filepath="/workspace/terraform-beginner-bootcamp-2023/public/error.html"
 content_version=1
 assets_path="/workspace/terraform-beginner-bootcamp-2023/public/assets"
+bucket_name="bu1k499uzbvubu7hikse9urbppgg6g1s"
