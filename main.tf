@@ -7,18 +7,18 @@ terraform {
   }
   #backend "remote" {
   #  hostname = "app.terraform.io"
-  #  organization = "ExamPro"
+  #  organization = "kriteja"
 
   #  workspaces {
   #    name = "terra-house-1"
   #  }
   #}
-  #cloud {
-  #  organization = "ExamPro"
-  #  workspaces {
-  #    name = "terra-house-1"
-  #  }
-  #}
+  cloud {
+    organization = "kriteja"
+    workspaces {
+      name = "terra-house-1"
+    }
+  }
 
 }
 
@@ -28,25 +28,41 @@ provider "terratowns" {
   token = var.terratowns_access_token
 }
 
-module "terrahouse_aws" {
- source = "./modules/terrahouse_aws"
- user_uuid = var.teacherseat_user_uuid
- index_html_filepath = var.index_html_filepath
- error_html_filepath = var.error_html_filepath
- content_version = var.content_version
- assets_path = var.assets_path
+module "home_arcanum_hosting" {
+  source = "./modules/terrahome_aws"
+  user_uuid = var.teacherseat_user_uuid
+  public_path = var.arcanum.public_path
+  content_version = var.arcanum.content_version
 }
 
-resource "terratowns_home" "home" {
-  name =   "City of Pearls"
+resource "terratowns_home" "home_arcanum" {
+  name = "How to play Arcanum in 2023!"
   description = <<DESCRIPTION
-Hyderabad, known as the "City of Pearls" epitomizes the greatness of India, is a vibrant fusion of tradition and progress.
-Nestled in the heart of the country, it reflects India's rich cultural heritage while embracing the winds of modernity.
-With iconic landmarks like the Charminar and Golconda Fort, it pays homage to its storied history, where dynasties rose and fell.
-Hyderabad's thriving IT industry exemplifies India's global technological prowess, while its diverse cuisine, from the world-famous Hyderabadi biryani to street food delights, showcases the nation's culinary diversity.
+Arcanum is a game from 2001 that shipped with alot of bugs.
+Modders have removed all the originals making this game really fun
+to play (despite that old look graphics). This is my guide that will
+show you how to play arcanum without spoiling the plot.
 DESCRIPTION
-  domain_name = module.terrahouse_aws.cloudfront_url
-  # domain_name = "3fafa3.cloudfront.net"
+  domain_name = module.home_arcanum_hosting.domain_name
   town = "missingo"
-  content_version = 1
+  content_version = var.arcanum.content_version
+} 
+
+module "home_payday_hosting" {
+  source = "./modules/terrahome_aws"
+  user_uuid = var.teacherseat_user_uuid
+  public_path = var.payday.public_path
+  content_version = var.payday.content_version
+}
+
+resource "terratowns_home" "home_payday" {
+  name = "Making your Payday Bar"
+  description = <<DESCRIPTION
+Since I really like Payday candy bars but they cost so much to import
+into Canada, I decided I would see how I could my own Paydays bars,
+and if they are most cost effective.
+DESCRIPTION
+  domain_name = module.home_payday_hosting.domain_name
+  town = "missingo"
+  content_version = var.payday.content_version
 }
