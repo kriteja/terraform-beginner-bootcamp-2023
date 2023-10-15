@@ -5,6 +5,11 @@ go 1.20
 replace github.com/ExamProCo/terraform-provider-terratowns => /workspace/terraform-beginner-bootcamp-2023/terraform-provider-terratowns
 
 require (
+	github.com/google/uuid v1.3.0
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.29.0
+)
+
+require (
 	github.com/agext/levenshtein v1.2.2 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/fatih/color v1.13.0 // indirect
