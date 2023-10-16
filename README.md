@@ -4,13 +4,14 @@
 **TerraTowns** serves as a centralized platform where terraformers can explore and link up with each other's self-hosted personal websites (TerraHouse), reminiscent of the Geocities style of 2023. The terraformers utilize Infrastructure as Code (IaC) to launch their **TerraHouse**, a Content Management System (CMS) that empowers them to create their own personal websites and integrate them into the TerraTowns network.
 
 ## TerraTowns Architectural Diagram 
-| Week 0 - Preweek                    | Week 1 - Build                      |
-| ----------------------------------- | ----------------------------------- |
-| ![Wk0](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/04a9cab6-fbc2-44d7-a1a3-ba7d7cf11d71) | ![Wk1](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/9d86ff44-2737-457b-b6ab-073d13b2a14d) |
 
-| Week 2 - Connect                    | Week 3 -                            |
-| ----------------------------------- | ----------------------------------- |
-|![Wk2](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/41b98ffe-d294-4fd4-8327-e28dda0ff625) | ![Wk2](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/41b98ffe-d294-4fd4-8327-e28dda0ff625) |
+| Week 0 - Preweek                    | Week 1 - Build                      | Week 2 - Connect                    |
+|------------------------------------ |------------------------------------ |------------------------------------ |
+| ![Wk0](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/04a9cab6-fbc2-44d7-a1a3-ba7d7cf11d71) | ![Wk1](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/9d86ff44-2737-457b-b6ab-073d13b2a14d) |![Wk2](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/41b98ffe-d294-4fd4-8327-e28dda0ff625) |
+
+
+## Developer Workflow 
+
 
 
 ## Terraform Root Module Structure 
@@ -27,6 +28,7 @@ PROJECT_ROOT
 ## Weekly Journals
 - [Week 0 Journal](journal/week0.md)
 - [Week 1 Journal](journal/week1.md)
+- [Week 2 Journal](journal/week2.md)
 
 ## Extras
 - [Github Markdown TOC Generator](https://ecotrust-canada.github.io/markdown-toc/)
