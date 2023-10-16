@@ -5,7 +5,7 @@
 
 
 ## Project is Live 
-- [TerraTowns](https://terratowns.cloud/profile)
+- [TerraTowns](https://terratowns.cloud/)
 
 ## TerraTowns Architectural Diagram 
 
