@@ -36,12 +36,9 @@ module "home_arcanum_hosting" {
 }
 
 resource "terratowns_home" "home_arcanum" {
-  name = "How to play Arcanum in 2023!"
+  name = "Vanilla Milkshake!"
   description = <<DESCRIPTION
-Arcanum is a game from 2001 that shipped with alot of bugs.
-Modders have removed all the originals making this game really fun
-to play (despite that old look graphics). This is my guide that will
-show you how to play arcanum without spoiling the plot.
+A vanilla milkshake is a classic, sweet, and creamy beverage made by blending vanilla ice cream with milk, resulting in a simple yet indulgent treat. Perfect for a refreshing drink or dessert.
 DESCRIPTION
   domain_name = module.home_arcanum_hosting.domain_name
   town = "missingo"
@@ -56,11 +53,9 @@ module "home_payday_hosting" {
 }
 
 resource "terratowns_home" "home_payday" {
-  name = "Making your Payday Bar"
+  name = "Chocolate Milkshake!"
   description = <<DESCRIPTION
-Since I really like Payday candy bars but they cost so much to import
-into Canada, I decided I would see how I could my own Paydays bars,
-and if they are most cost effective.
+A chocolate milkshake is a luscious and indulgent treat made by blending chocolate ice cream with milk, resulting in a rich and creamy beverage that's perfect for satisfying your chocolate cravings or cooling off on a hot day.
 DESCRIPTION
   domain_name = module.home_payday_hosting.domain_name
   town = "missingo"
