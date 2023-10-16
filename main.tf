@@ -41,7 +41,7 @@ resource "terratowns_home" "home_arcanum" {
 A vanilla milkshake is a classic, sweet, and creamy beverage made by blending vanilla ice cream with milk, resulting in a simple yet indulgent treat. Perfect for a refreshing drink or dessert.
 DESCRIPTION
   domain_name = module.home_arcanum_hosting.domain_name
-  town = "missingo"
+  town = "cooker-cove"
   content_version = var.arcanum.content_version
 } 
 
@@ -58,6 +58,6 @@ resource "terratowns_home" "home_payday" {
 A chocolate milkshake is a luscious and indulgent treat made by blending chocolate ice cream with milk, resulting in a rich and creamy beverage that's perfect for satisfying your chocolate cravings or cooling off on a hot day.
 DESCRIPTION
   domain_name = module.home_payday_hosting.domain_name
-  town = "missingo"
+  town = "cooker-cove"
   content_version = var.payday.content_version
 }
