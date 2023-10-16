@@ -1,7 +1,7 @@
 # Output of the Project 
 
-## TerraTowns Homepage 
-![HomePage](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/b1a68edd-bb9e-45f5-9831-ad7c03d2d680)
+## TerraTowns Cooker Cove Homepage 
+![HomePage](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/ae8d5b5e-3ad9-4da5-bdb0-7d92464818ce)
 
 ## Terrahouse 1 - Vanilla MilkShake 
 ![VM1](https://github.com/kriteja/terraform-beginner-bootcamp-2023/assets/40818088/d7104c15-6bfd-4a9b-90aa-648856290b55)
