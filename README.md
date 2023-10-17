@@ -33,7 +33,7 @@ PROJECT_ROOT
 ## Lucid Charts 
 - [Architectural Diagram](https://lucid.app/lucidchart/e3f15b1a-2211-4ddb-8c95-f144c2504db4/edit?invitationId=inv_0873b3c6-c652-463f-9f2b-fa0f1b420823&page=0_0#)
 - [Developer Workflow](https://lucid.app/lucidchart/d1190186-7e7c-4211-8aa0-d799df42bcbb/edit?invitationId=inv_d8273166-6576-4fd7-8d69-c0aee098c3c2&page=0_0#)
-> Lucid Charts account is required to access the charts. Sign-up at [lucidchart.com](lucidchart.com/)
+> Lucid Charts account is required to access the charts. Sign-up at [lucidchart.com](www.lucidchart.com/)
 
 ## Weekly Journals
 - [Week 0 Journal](journal/week0.md)
